@@ -1,0 +1,21 @@
+Variável;Tipo;Descrição;Fonte
+codigo_ibge;numérico;Código do município no IBGE (7 dígitos) de residência do paciente;Secretaria de Estado da Saúde
+nome_munic;texto;Nome do município de residência do paciente;Secretaria de Estado da Saúde
+nome_drs;texto;Nome do Dpto. Regional de Saúde de residência do paciente;Fundação Sistema Estadual de Análise de Dados – Seade
+obito;numérico;Indica se o paciente veio a óbito por COVID-19;Secretaria de Estado da Saúde
+raca_cor;texto;Cor ou raça do paciente;Secretaria de Estado da Saúde
+idade;numérico;Idade do paciente;Secretaria de Estado da Saúde
+cs_sexo;texto;Sexo do paciente;Secretaria de Estado da Saúde
+diagnostico_covid19;texto;Confirmação de COVID-19;Secretaria de Estado da Saúde
+asma;texto;Paciente apresenta esse fator de risco (asma);Secretaria de Estado da Saúde
+cardiopatia;texto;Paciente apresenta esse fator de risco (cardiopatia);Secretaria de Estado da Saúde
+diabetes;texto;Paciente apresenta esse fator de risco (diabetes);Secretaria de Estado da Saúde
+doenca_hematologica;texto;Paciente apresenta esse fator de risco (doença hematológica);Secretaria de Estado da Saúde
+doenca_hepatica;texto;Paciente apresenta esse fator de risco (doença hepática);Secretaria de Estado da Saúde
+doenca_neurologica;texto;Paciente apresenta esse fator de risco (doença neurológica);Secretaria de Estado da Saúde
+doenca_renal;texto;Paciente apresenta esse fator de risco (doença renal);Secretaria de Estado da Saúde
+imunodepressao;texto;Paciente apresenta esse fator de risco (imunodepressão);Secretaria de Estado da Saúde
+obesidade;texto;Paciente apresenta esse fator de risco (obesidade);Secretaria de Estado da Saúde
+pneumopatia;texto;Paciente apresenta esse fator de risco (pneumopatia);Secretaria de Estado da Saúde
+puerpera;texto;Paciente se encontra nesse estágio (puérpera);Secretaria de Estado da Saúde
+sindrome_de_down;texto;Paciente apresenta esse fator de risco (síndrome de down);Secretaria de Estado da Saúde
