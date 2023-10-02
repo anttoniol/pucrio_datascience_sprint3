@@ -2,13 +2,13 @@ import logging
 
 import boto3
 from botocore.exceptions import ClientError
-
+from properties_reader import config
 
 class AWSS3:
     __session = boto3.session.Session(
-        region_name='us-east-1',
-        aws_access_key_id="AKIAQYDW2EL7OR5PNC3N",
-        aws_secret_access_key="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"
+        region_name= config['AWS']['region_name'],
+        aws_access_key_id = config['AWS']['access_key'],
+        aws_secret_access_key=config['AWS']['secret_key']
     )
 
     __s3_client = __session.client('s3')
